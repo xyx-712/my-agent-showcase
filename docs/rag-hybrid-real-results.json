@@ -1,0 +1,1270 @@
+{
+  "threshold": 0.65,
+  "rows": [
+    {
+      "question": "员工年假有几天，找谁申请？",
+      "expected": "ce8d41e8058748788d18619a3bb6d560",
+      "vector": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.710235059261322
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.36923569440841675
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.261222779750824
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.2447165846824646
+        }
+      ],
+      "lexical": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "hybrid": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.710235059261322,
+          "accepted": true,
+          "accepted_by": "semantic",
+          "lexical_terms": [
+            "员工",
+            "年假",
+            "申请"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.36923569440841675,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.261222779750824,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.2447165846824646,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "citations": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "answer": "[原文事实] 员工每年享有十五天带薪年假，休假须提前三天向直属主管提交申请。\n依据：leave.txt L1–1 · 员工每年享有十五天带薪年假，休假须提前三天向直属主管提交申请。",
+      "refused": false
+    },
+    {
+      "question": "想请带薪休假需要提前多久报给主管？",
+      "expected": "ce8d41e8058748788d18619a3bb6d560",
+      "vector": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.6977669596672058
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.3429436683654785
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.29597020149230957
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.25508761405944824
+        }
+      ],
+      "lexical": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "hybrid": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.6977669596672058,
+          "accepted": true,
+          "accepted_by": "semantic",
+          "lexical_terms": [
+            "带薪",
+            "休假",
+            "提前",
+            "主管"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.3429436683654785,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.29597020149230957,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.25508761405944824,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "citations": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "answer": "[原文事实] 员工申请带薪年假需提前3天通知直属主管。\n依据：leave.txt L1–1 · 休假须提前三天向直属主管提交申请。",
+      "refused": false
+    },
+    {
+      "question": "买到的东西多久内能退，质量问题谁付运费？",
+      "expected": "4ddb44f56e8a4a2284833402c3bb6dd2",
+      "vector": [
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.7584822177886963
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.2489330768585205
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.21887660026550293
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.20572596788406372
+        }
+      ],
+      "lexical": [
+        "4ddb44f56e8a4a2284833402c3bb6dd2"
+      ],
+      "hybrid": [
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.7584822177886963,
+          "accepted": true,
+          "accepted_by": "semantic",
+          "lexical_terms": [
+            "质量",
+            "运费"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.2489330768585205,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.21887660026550293,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.20572596788406372,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "4ddb44f56e8a4a2284833402c3bb6dd2"
+      ],
+      "citations": [
+        "4ddb44f56e8a4a2284833402c3bb6dd2"
+      ],
+      "answer": "[原文事实] 在签收七天内可以申请退货退款，质量问题的退货运费由商家承担。\n依据：refund.txt L1–1 · 商品在签收七天内可以申请退货退款，质量问题的退货运费由商家承担。",
+      "refused": false
+    },
+    {
+      "question": "收货后想退款，有什么时间限制？",
+      "expected": "4ddb44f56e8a4a2284833402c3bb6dd2",
+      "vector": [
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.7299786806106567
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.35920923948287964
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.26026129722595215
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.25473523139953613
+        }
+      ],
+      "lexical": [],
+      "hybrid": [
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.7299786806106567,
+          "accepted": true,
+          "accepted_by": "semantic",
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.35920923948287964,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.26026129722595215,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.25473523139953613,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "4ddb44f56e8a4a2284833402c3bb6dd2"
+      ],
+      "citations": [
+        "4ddb44f56e8a4a2284833402c3bb6dd2"
+      ],
+      "answer": "[原文事实] 收货后七天内可以申请退款。\n依据：refund.txt L1–1 · 商品在签收七天内可以申请退货退款，质量问题的退货运费由商家承担。",
+      "refused": false
+    },
+    {
+      "question": "数据库备份是什么时间做，保存多久？",
+      "expected": "387add5b128e4f6f949ee45a75c401a7",
+      "vector": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.7219291925430298
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.34108805656433105
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.32325637340545654
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.2411407232284546
+        }
+      ],
+      "lexical": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "hybrid": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.7219291925430298,
+          "accepted": true,
+          "accepted_by": "semantic",
+          "lexical_terms": [
+            "数据",
+            "备份"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.34108805656433105,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.32325637340545654,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.2411407232284546,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "citations": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "answer": "[原文事实] 数据库每天凌晨两点自动备份，备份副本保留三十天。\n依据：backup.txt L1–1 · 数据库每天凌晨两点自动备份，备份副本保留三十天。",
+      "refused": false
+    },
+    {
+      "question": "谁有权恢复数据，需要检查什么？",
+      "expected": "387add5b128e4f6f949ee45a75c401a7",
+      "vector": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.5342632532119751
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.42066240310668945
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.33230412006378174
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.1937706470489502
+        }
+      ],
+      "lexical": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "hybrid": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.5342632532119751,
+          "accepted": true,
+          "accepted_by": "lexical",
+          "lexical_terms": [
+            "恢复",
+            "数据"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.42066240310668945,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.33230412006378174,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.1937706470489502,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "citations": [],
+      "answer": "当前资料中找不到可核对的依据，请补充文件或明确问题。",
+      "refused": true
+    },
+    {
+      "question": "设置登录密码有什么要求？",
+      "expected": "bb7896d4a3a246d8a2cf55e586e0dcab",
+      "vector": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.594760000705719
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.2228151559829712
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.21972501277923584
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.2043018341064453
+        }
+      ],
+      "lexical": [
+        "bb7896d4a3a246d8a2cf55e586e0dcab"
+      ],
+      "hybrid": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.594760000705719,
+          "accepted": true,
+          "accepted_by": "lexical",
+          "lexical_terms": [
+            "登录",
+            "密码"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.2228151559829712,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.21972501277923584,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.2043018341064453,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "bb7896d4a3a246d8a2cf55e586e0dcab"
+      ],
+      "citations": [],
+      "answer": "当前资料中找不到可核对的依据，请补充文件或明确问题。",
+      "refused": true
+    },
+    {
+      "question": "发现有人异常登录账号应该如何处理？",
+      "expected": "bb7896d4a3a246d8a2cf55e586e0dcab",
+      "vector": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.5893498063087463
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.24305295944213867
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.2294519543647766
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.16891831159591675
+        }
+      ],
+      "lexical": [
+        "bb7896d4a3a246d8a2cf55e586e0dcab"
+      ],
+      "hybrid": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.5893498063087463,
+          "accepted": true,
+          "accepted_by": "lexical",
+          "lexical_terms": [
+            "发现",
+            "异常",
+            "登录",
+            "账号"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.24305295944213867,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.2294519543647766,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.16891831159591675,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "bb7896d4a3a246d8a2cf55e586e0dcab"
+      ],
+      "citations": [],
+      "answer": "当前资料中找不到可核对的依据，请补充文件或明确问题。",
+      "refused": true
+    },
+    {
+      "question": "休年假要提前几日报批？",
+      "expected": "ce8d41e8058748788d18619a3bb6d560",
+      "vector": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.6296383738517761
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.3427392840385437
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.341916024684906
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.2969181537628174
+        }
+      ],
+      "lexical": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "hybrid": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.6296383738517761,
+          "accepted": true,
+          "accepted_by": "lexical",
+          "lexical_terms": [
+            "年假",
+            "提前"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.3427392840385437,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.341916024684906,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.2969181537628174,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "citations": [
+        "ce8d41e8058748788d18619a3bb6d560"
+      ],
+      "answer": "[原文事实] 员工休年假需提前3天向直属主管提交申请。\n依据：leave.txt L1–1 · 休假须提前三天向直属主管提交申请。",
+      "refused": false
+    },
+    {
+      "question": "恢复数据库由谁负责？",
+      "expected": "387add5b128e4f6f949ee45a75c401a7",
+      "vector": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.5728449821472168
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.33507347106933594
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.29977643489837646
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.1806938648223877
+        }
+      ],
+      "lexical": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "hybrid": [
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.5728449821472168,
+          "accepted": true,
+          "accepted_by": "lexical",
+          "lexical_terms": [
+            "恢复",
+            "数据"
+          ],
+          "retrieval_channels": [
+            "vector",
+            "lexical"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.33507347106933594,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.29977643489837646,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.1806938648223877,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "citations": [
+        "387add5b128e4f6f949ee45a75c401a7"
+      ],
+      "answer": "[原文事实] 数据恢复由管理员负责。\n依据：backup.txt L1–1 · 数据恢复必须由管理员执行并核对完整性。",
+      "refused": false
+    },
+    {
+      "question": "火星大气中氩气的比例是多少？",
+      "expected": null,
+      "vector": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.15088433027267456
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.11383658647537231
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.10636663436889648
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.10082024335861206
+        }
+      ],
+      "lexical": [],
+      "hybrid": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.15088433027267456,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.11383658647537231,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.10636663436889648,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.10082024335861206,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [],
+      "citations": [],
+      "answer": "资料中没有找到足够依据；请确认文件索引可用或补充相关资料。",
+      "refused": true
+    },
+    {
+      "question": "量子纠缠的实验装置如何搭建？",
+      "expected": null,
+      "vector": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.1583317518234253
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.1564035415649414
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.10586303472518921
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.09125220775604248
+        }
+      ],
+      "lexical": [],
+      "hybrid": [
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.1583317518234253,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.1564035415649414,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.10586303472518921,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.09125220775604248,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [],
+      "citations": [],
+      "answer": "资料中没有找到足够依据；请确认文件索引可用或补充相关资料。",
+      "refused": true
+    },
+    {
+      "question": "巴黎铁塔有多高？",
+      "expected": null,
+      "vector": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.15532416105270386
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.13866519927978516
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.12617725133895874
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.0820927619934082
+        }
+      ],
+      "lexical": [],
+      "hybrid": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.15532416105270386,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.13866519927978516,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.12617725133895874,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.0820927619934082,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [],
+      "citations": [],
+      "answer": "资料中没有找到足够依据；请确认文件索引可用或补充相关资料。",
+      "refused": true
+    },
+    {
+      "question": "年假未休完可以折算多少元现金？",
+      "expected": null,
+      "vector": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "similarity": 0.5084624886512756
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "similarity": 0.276697039604187
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "similarity": 0.21642106771469116
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "similarity": 0.16547119617462158
+        }
+      ],
+      "lexical": [],
+      "hybrid": [
+        {
+          "document_id": "ce8d41e8058748788d18619a3bb6d560",
+          "chunk_id": "d334be24cd5241bfac424a9bbfaf8401d0f72e62e9b7e12fe586a2afe8dadf0e",
+          "generation": "767f212d56ce4ddb9444dbfbd829ee8a",
+          "similarity": 0.5084624886512756,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "4ddb44f56e8a4a2284833402c3bb6dd2",
+          "chunk_id": "4efc431a78665e68469adf14740193661179d8436a03815a6a1cc3b7bb811a1e",
+          "generation": "a48290678f5240a0b9165742deb8e3b8",
+          "similarity": 0.276697039604187,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "bb7896d4a3a246d8a2cf55e586e0dcab",
+          "chunk_id": "44fc62e12c52cfbfed1fa038073c5b747466c91cdd52dcdfeeb4090d877f682a",
+          "generation": "d5a5cdf8482a45acbe50be427fb8b7f7",
+          "similarity": 0.21642106771469116,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        },
+        {
+          "document_id": "387add5b128e4f6f949ee45a75c401a7",
+          "chunk_id": "344b288053abe1ce69e00f1df91b4c37d9b13a4365c9479dab31ffb840f6492a",
+          "generation": "2f50ca2d76d74fe3883a9e3520191f87",
+          "similarity": 0.16547119617462158,
+          "accepted": false,
+          "accepted_by": null,
+          "lexical_terms": [],
+          "retrieval_channels": [
+            "vector"
+          ]
+        }
+      ],
+      "old_policy_candidates": [],
+      "citations": [],
+      "answer": "资料中没有找到足够依据；请确认文件索引可用或补充相关资料。",
+      "refused": true
+    }
+  ],
+  "joint": {
+    "answer": "[原文事实] 青禾公司员工年假额度为每年十五天，年假申请需要提前三天向直属主管提交申请。\n依据：annual.txt L1–1 · 青禾公司员工年假额度为每年十五天。\n依据：approval.txt L1–1 · 青禾公司年假申请需要提前三天向直属主管提交申请。",
+    "citations": [
+      "557db0ecbae54531a60efd76981cdddf",
+      "a50552354b994f0681fc8332cd70c017"
+    ],
+    "audit": [
+      {
+        "document_id": "557db0ecbae54531a60efd76981cdddf",
+        "chunk_id": "2136fa65744f7d7495e7e097301c01139acc085a8c05ecda4f0afb4bc66d8edb",
+        "generation": "c3f983c23cab4637b0874263173e5fe0",
+        "similarity": 0.730359673500061,
+        "accepted": true,
+        "accepted_by": "semantic",
+        "lexical_terms": [
+          "青禾",
+          "年假",
+          "额度"
+        ],
+        "retrieval_channels": [
+          "vector",
+          "lexical"
+        ]
+      },
+      {
+        "document_id": "a50552354b994f0681fc8332cd70c017",
+        "chunk_id": "e6df6100dc21891506e2a34698a7d71144d76824a7c96a39630bf9298832d133",
+        "generation": "00c473e638a146b98090c6714655055b",
+        "similarity": 0.7192040085792542,
+        "accepted": true,
+        "accepted_by": "semantic",
+        "lexical_terms": [
+          "青禾",
+          "司年",
+          "年假",
+          "申请"
+        ],
+        "retrieval_channels": [
+          "vector",
+          "lexical"
+        ]
+      }
+    ],
+    "both": true
+  },
+  "original": {
+    "answer": "[原文事实] 青禾公司员工每年享有15天年假，需提前3天向直属主管申请。\n依据：original.txt L1–1 · 青禾公司每年提供十五天年假，申请须提前三天提交给直属主管审批。",
+    "citations": [
+      {
+        "index": 0,
+        "page": null,
+        "start": 1,
+        "end": 1,
+        "method": "native",
+        "ocr_review": false,
+        "name": "original.txt",
+        "source": "original.txt",
+        "file_id": "3b846b9d18ac45cc8f73511a12e1020d",
+        "parent_id": "36bd40069c6897d7c484ac9e0a1e6dcc634a4ebcdbe78847fa29880b0e3e4842",
+        "loader_version": "source-adapter-v1",
+        "parent_char_start": 0,
+        "parent_char_end": 31,
+        "splitter_version": "recursive-char-v1",
+        "chunk_size": 800,
+        "chunk_overlap": 100,
+        "child_line_start": 1,
+        "child_line_end": 1,
+        "chunk_id": "53fdcac442f416653784179ab25a475bf995b6d194f13a0406c76cace3d51b93",
+        "text": "青禾公司每年提供十五天年假，申请须提前三天提交给直属主管审批。"
+      }
+    ],
+    "audit": [
+      {
+        "document_id": "3b846b9d18ac45cc8f73511a12e1020d",
+        "chunk_id": "53fdcac442f416653784179ab25a475bf995b6d194f13a0406c76cace3d51b93",
+        "generation": "9babb9f8523146859d5c264de9ce5608",
+        "similarity": 0.6372072696685791,
+        "accepted": true,
+        "accepted_by": "lexical",
+        "lexical_terms": [
+          "年假",
+          "申请"
+        ],
+        "retrieval_channels": [
+          "vector",
+          "lexical"
+        ]
+      }
+    ]
+  },
+  "foreign_file_status": 404,
+  "delete_status": 200,
+  "deleted_search_blocked": true,
+  "seconds": 49.964
+}

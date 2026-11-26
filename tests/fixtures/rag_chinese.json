@@ -1,0 +1,58 @@
+{
+  "documents": [
+    {
+      "id": "leave",
+      "name": "leave.txt",
+      "text": "员工每年享有十五天带薪年假，休假须提前三天向直属主管提交申请。"
+    },
+    {
+      "id": "refund",
+      "name": "refund.txt",
+      "text": "商品在签收七天内可以申请退货退款，质量问题的退货运费由商家承担。"
+    },
+    {
+      "id": "backup",
+      "name": "backup.txt",
+      "text": "数据库每天凌晨两点自动备份，备份副本保留三十天。数据恢复必须由管理员执行并核对完整性。"
+    },
+    {
+      "id": "security",
+      "name": "security.txt",
+      "text": "账号密码至少十二位并包含字母和数字，管理员每月审计登录日志，发现异常登录应撤销会话。"
+    }
+  ],
+  "queries": [
+    {
+      "question": "员工年假有几天，找谁申请？",
+      "expected": "leave"
+    },
+    {
+      "question": "想请带薪休假需要提前多久报给主管？",
+      "expected": "leave"
+    },
+    {
+      "question": "买到的东西多久内能退，质量问题谁付运费？",
+      "expected": "refund"
+    },
+    {
+      "question": "收货后想退款，有什么时间限制？",
+      "expected": "refund"
+    },
+    {
+      "question": "数据库备份是什么时间做，保存多久？",
+      "expected": "backup"
+    },
+    {
+      "question": "谁有权恢复数据，需要检查什么？",
+      "expected": "backup"
+    },
+    {
+      "question": "设置登录密码有什么要求？",
+      "expected": "security"
+    },
+    {
+      "question": "发现有人异常登录账号应该如何处理？",
+      "expected": "security"
+    }
+  ]
+}

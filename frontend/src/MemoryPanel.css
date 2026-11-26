@@ -1,0 +1,22 @@
+.memory-panel { width: min(920px, calc(100vw - 32px)); max-height: 90dvh; overflow: auto; background: white; color: #24314e; border: 1px solid #dce3f1; border-radius: 22px; padding: 24px; box-shadow: 0 24px 80px #17244025; text-align: left; }
+.memory-toolbar, .memory-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; padding: 14px 0; }
+.memory-toolbar span, .memory-empty { color: #75829a; font-size: 14px; }
+.memory-panel button, .memory-panel select { background: #f7f8fc; color: #384878; border: 1px solid #dce3f1; border-radius: 10px; padding: 9px 12px; cursor: pointer; }
+.memory-panel button:disabled { opacity: .5; cursor: default; }
+.memory-columns { display: grid; grid-template-columns: minmax(210px, .8fr) minmax(0, 1.2fr); gap: 24px; }
+.memory-list { display: flex; flex-direction: column; gap: 10px; }
+.memory-record { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; text-align: left; overflow-wrap: anywhere; }
+.memory-record span { white-space: pre-wrap; max-height: 90px; overflow: auto; }
+.memory-record small { color: #7e8ba2; }
+.memory-record.selected { background: #eef1ff; border-color: #8c9cd6; }
+.memory-detail { min-width: 0; overflow-wrap: anywhere; }
+.memory-detail dl { display: grid; grid-template-columns: 50px minmax(0, 1fr); gap: 6px 12px; font-size: 13px; }
+.memory-detail dt { color: #7e8ba2; }.memory-detail dd { margin: 0; }
+.memory-detail textarea { display: block; box-sizing: border-box; width: 100%; min-height: 100px; margin: 10px 0; padding: 12px; border: 1px solid #dce3f1; border-radius: 12px; color: inherit; font: inherit; resize: vertical; }
+.memory-detail details { margin: 18px 0; }.memory-detail summary { cursor: pointer; }
+.memory-version { border-left: 2px solid #e2e7f2; margin: 12px 0; padding-left: 12px; white-space: pre-wrap; }
+.memory-version p { margin: 6px 0; }.memory-version small { color: #7e8ba2; }
+.memory-delete { border-top: 1px solid #e2e7f2; margin-top: 22px; padding-top: 14px; font-size: 13px; }
+.memory-delete button { display: block; margin-top: 12px; color: #a13c4b; }.memory-delete p { color: #7e8ba2; }
+.memory-success { color: #287b64; }.memory-error { color: #a13c4b; }
+@media (max-width: 700px) { .memory-columns { grid-template-columns: 1fr; }.memory-panel { padding: 18px; max-height: 94dvh; }.memory-list { max-height: 32dvh; overflow: auto; } }

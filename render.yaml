@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: my-agent-demo
+    runtime: docker
+    branch: feature/demo-security
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /health
+    disk:
+      name: demo-sqlite
+      mountPath: /app/storage
+      sizeGB: 1
+    envVars:
+      - key: MY_AGENT_DEMO_DATA_DIR
+        value: /app/storage
+      - key: MY_AGENT_OLLAMA_URL
+        value: https://ollama.com
+      - key: MY_AGENT_MODEL
+        value: "gemma4:31b"
+      - key: MY_AGENT_OLLAMA_API_KEY
+        sync: false

@@ -137,4 +137,3 @@ file_reader 是显式授权的内部工具，当前不会因普通聊天而开�
 项目自有且有权授权的代码采用 [MIT](LICENSE)，Copyright © 2026 xyx-712。第三方依赖、Vite 素材与模型不被重新授权为 MIT。保留 [第三方声明](THIRD-PARTY-NOTICES.md) 和原始版权文件。
 
 grpcio、NumPy、ONNX Runtime、orjson、Pillow、sqlite-vec、tokenizers、lightningcss-win32-x64-msvc **8项仍待人工签核**，不宣称全部兼容。EmbeddingGemma 另受 Gemma 条款约束。发布范围仅源码；未来打包二进制、容器或模型时需重新审查分发义务。
-

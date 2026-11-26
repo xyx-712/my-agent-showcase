@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-25",
+  "refs": [
+    "refs/codex/turn-diffs/captures/1795570531826/c7e3b4f9-07eb-47be-a082-9b950a4e7fc4/base",
+    "refs/codex/turn-diffs/checkpoints/4a5b3377e2456f982e506633051de936/d7526f0f39fa4a4dc8c9fb5074083586/1795429835656/12661df6-4cc6-45fd-a1f8-373db645300d",
+    "refs/codex/turn-diffs/checkpoints/52afb1a1c35a1c4a5caa60da7d7ce8d5/06f22d1cdb8b625f3ce07d568d7547e7/1795537416437/f1680ca4-2f8a-4ee4-a89c-b453b360d270",
+    "refs/heads/deploy-demo",
+    "refs/heads/feature/demo-security",
+    "refs/heads/main",
+    "refs/remotes/origin/HEAD",
+    "refs/remotes/origin/deploy-demo",
+    "refs/remotes/origin/feature/demo-security",
+    "refs/remotes/origin/main",
+    "refs/tags/v0",
+    "refs/tags/v0.1-multi-tools",
+    "refs/tags/v0.2-file-reader",
+    "refs/tags/v0.3-file-tool",
+    "refs/tags/v0.5-memory",
+    "refs/tags/v0.6-memory",
+    "refs/tags/v0.7-tool-agent",
+    "refs/tags/v0.8",
+    "refs/tags/v0.9",
+    "refs/tags/v1.0",
+    "refs/tags/v1.0.1",
+    "refs/tags/v1.1.0",
+    "refs/tags/v1.2.0",
+    "refs/tags/v1.3.0"
+  ],
+  "scope": "all reachable blobs; not unreachable reflog objects; no contents disclosed",
+  "findings": [
+    {
+      "path": "README.md",
+      "blob": "2e922924f8d3a2f6c00abc3c22365102b21d895b",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/abstract-reference-fix.md",
+      "blob": "1d191603f6778b77cac6d0026cba2ffef1513016",
+      "commit": "ad19a95978c222a692cebd22f1d6cd57f9bc56e9",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage1.md",
+      "blob": "1ce6d8e288565c33bf9b9aa2cb403e44cc14aa82",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage3.md",
+      "blob": "860ea996dfab3789b02509f33788c44f6c9c6d33",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage4-1.md",
+      "blob": "2b9ef2fa5674f8f74c3dd090def806f38247e61b",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage4-2.md",
+      "blob": "a96f235dd840f74ea6c758abf92239d85cdce797",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage4-4.md",
+      "blob": "062c1df03342f43c57b17e9ff914d5186a1abc7f",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/architecture-stage4-final.md",
+      "blob": "2d59ad4dcc610f2102393e19e168176d53edcf3f",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/final-acceptance.md",
+      "blob": "4829466e81241f9cb033407283b5d5cf327e7d6c",
+      "commit": "ad19a95978c222a692cebd22f1d6cd57f9bc56e9",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/final-stage7-2.md",
+      "blob": "2826725b1545c9c000b6da3b43ba0a041732e0af",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/memory-stage5-1.md",
+      "blob": "8690ec68e05bc399cb96b863ff68ad65fe8704c5",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/memory-stage5-2.md",
+      "blob": "7a4ff01c3eb8ef04aeecc58abf5b929468100f87",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/memory-stage5-3.md",
+      "blob": "2fe207021e65f97ed29a7800bfc7ec2ab6376781",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/memory-stage5-4.md",
+      "blob": "2a9f3d5b97662424e5a4154b1aeee53330096a32",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/memory-stage5-final.md",
+      "blob": "490e88e18f9ef4bc082d2ae7e494608678aa87da",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/planner-repair-acceptance.md",
+      "blob": "053b2f6856005b406d1c3c3bebb34450fbf1415a",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/rag-closure-acceptance.md",
+      "blob": "114d4a2d8e5528d8fd1674a85d983aecf1bea4fe",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/readme-history-through-stage6.md",
+      "blob": "718b8ae18a6d17a47750a8147f60cbeb9617ce93",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "docs/stability-stage6.md",
+      "blob": "8fd7437724306f7caea3f62beda5b8432c9f0a3d",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "3fa3f44e03d1cfc119dd29eab7f0a8ad0a3aee8c",
+      "commit": "",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "54c4d1ce9e62d58a30e52764fd7df02f199f1f0c",
+      "commit": "ad19a95978c222a692cebd22f1d6cd57f9bc56e9",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "d515e9ee738afe9e1d57465354efd3d86709a019",
+      "commit": "ad19a95978c222a692cebd22f1d6cd57f9bc56e9",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "895d36a5c68951eeb8c92a27b947981f6d3fa586",
+      "commit": "0932895530925058bdd4735fa51433ec94a116b0",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "a829b25192136a80bed58fd1361accd38bb61ba8",
+      "commit": "a8dd3c2fff14f00f31bc174cf3eeaae986ac35d7",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "509819893c2e06f7239a692cc45f3f5869f1f7e7",
+      "commit": "501be174b86e680d0e948f70d5d65be75be8b682",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "97693b2184d5b1110fa45b55fbfb5dadee525b60",
+      "commit": "61d024a75408b7640236c7f5f152c589f8b37165",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "e99bf2b1474cccdcac5ffcccff0099b9535d5c7b",
+      "commit": "3fd825bb8c603297d393d1a290cb6d8d0a523a09",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "README.md",
+      "blob": "8989af18b6462bee43387cd7814dc67cb0d5a3f5",
+      "commit": "687bc9d3ab20b03890fe6b13a3e0185be83a7404",
+      "risk": [
+        "machine_path"
+      ]
+    },
+    {
+      "path": "agent_checkpoints.db",
+      "blob": "11a1aff6ba2b6d7b28ac5fced00162126f4557ef",
+      "commit": "20c8b3071c134185c3b872d57ca7366db2047519",
+      "risk": [
+        "sensitive_runtime_path",
+        "sqlite_binary"
+      ]
+    },
+    {
+      "path": "agent_checkpoints.db",
+      "blob": "1fe93f95ac0a42e547f75cffc325b8bb44419711",
+      "commit": "510501cd10fcc97155a431e29671a905a2095be0",
+      "risk": [
+        "sensitive_runtime_path",
+        "sqlite_binary"
+      ]
+    },
+    {
+      "path": "agent_checkpoints.db",
+      "blob": "76495c20d96436fadf03fac896f080f00a188d2c",
+      "commit": "398d1ab5c80ed7928435b6ff732b682549384609",
+      "risk": [
+        "sensitive_runtime_path",
+        "sqlite_binary"
+      ]
+    }
+  ]
+}

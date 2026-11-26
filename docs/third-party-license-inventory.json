@@ -1,0 +1,2912 @@
+{
+  "scope": "Installed release-copy environment; metadata inventory, not a full legal compatibility conclusion; no dependency binaries included in source ZIP",
+  "dependencies": [
+    {
+      "ecosystem": "Python",
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "license_expression": null,
+      "license_metadata": "PSF-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "bundled_notice_files": [
+        "aiohappyeyeballs-2.7.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "license_expression": "Apache-2.0 AND MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+        "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 + vendor llhttp MIT; preserve both notices.",
+      "official_source": "https://github.com/aio-libs/aiohttp/blob/master/LICENSE.txt",
+      "version_source": "https://pypi.org/project/aiohttp/3.14.5/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "aiohttp-3.14.5.dist-info/licenses/LICENSE.txt",
+          "sha256": "2e4be5fc6c4c72a466fcb665d726e049a6891981fe536c4f04b6366749461d23"
+        },
+        {
+          "package_relative_path": "aiohttp-3.14.5.dist-info/licenses/vendor/llhttp/LICENSE",
+          "sha256": "628168d68bb5a8a17e0bbefb3bd74e326e1edc20583d76f52f457c82c921867d"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "license_expression": null,
+      "license_metadata": "Apache 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "aiosignal-1.4.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "aiosqlite",
+      "version": "0.22.1",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "aiosqlite-0.22.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "MIT classifier only; confirm actual license text and notices."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "annotated-doc",
+      "version": "0.0.7",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "annotated_doc-0.0.7.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "annotated_types-0.8.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "anyio",
+      "version": "4.16.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "anyio-4.16.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "argon2-cffi",
+      "version": "25.1.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "argon2_cffi-25.1.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "argon2-cffi-bindings",
+      "version": "26.2.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "argon2_cffi_bindings-26.2.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "attrs",
+      "version": "26.1.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "attrs-26.1.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "bcrypt",
+      "version": "5.0.0",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "bcrypt-5.0.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "build",
+      "version": "1.6.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "build-1.6.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "certifi",
+      "version": "2026.11.20",
+      "license_expression": null,
+      "license_metadata": "MPL-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "bundled_notice_files": [
+        "certifi-2026.11.20.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MPL-2.0; preserve CA bundle/file-level notices; do not relabel MIT.",
+      "official_source": "https://github.com/certifi/python-certifi/blob/master/LICENSE",
+      "version_source": "https://pypi.org/project/certifi/2026.11.20/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "certifi-2026.11.20.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "cffi",
+      "version": "2.1.1",
+      "license_expression": "MIT-0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "cffi-2.1.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "charset-normalizer",
+      "version": "3.5.3",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "charset_normalizer-3.5.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "chromadb",
+      "version": "1.5.9",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "chromadb-1.5.9.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "unknown",
+      "mit_review_reason": "Missing precise expression or ambiguous classifier; manual confirmation required.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 confirmed from bundled text and official LICENSE.",
+      "official_source": "https://github.com/chroma-core/chroma/blob/main/LICENSE",
+      "version_source": "https://pypi.org/project/chromadb/1.5.9/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "chromadb-1.5.9.dist-info/licenses/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "click",
+      "version": "8.5.1",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "click-8.5.1.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "colorama",
+      "version": "0.4.6",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "unknown",
+      "mit_review_reason": "Missing precise expression or ambiguous classifier; manual confirmation required.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "BSD-3-Clause confirmed from bundled and official text.",
+      "official_source": "https://github.com/tartley/colorama/blob/master/LICENSE.txt",
+      "version_source": "https://pypi.org/project/colorama/0.4.6/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "distro",
+      "version": "1.9.0",
+      "license_expression": null,
+      "license_metadata": "Apache License, Version 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "distro-1.9.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "durationpy",
+      "version": "0.11",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "durationpy-0.11.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "fastapi",
+      "version": "0.141.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "fastapi-0.141.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "filelock",
+      "version": "4.3.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "filelock-4.3.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "flatbuffers",
+      "version": "25.12.19",
+      "license_expression": null,
+      "license_metadata": "Apache 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "frozenlist-1.8.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "fsspec-2026.9.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "googleapis-common-protos",
+      "version": "1.76.0",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "googleapis_common_protos-1.76.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "grpcio",
+      "version": "1.85.3",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "grpcio-1.85.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "Bundled LICENSE contains Apache, BSD and MPL components; native component attribution not fully mapped.",
+      "official_source": "https://github.com/grpc/grpc/blob/master/LICENSE",
+      "version_source": "https://pypi.org/project/grpcio/1.85.3/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "grpcio-1.85.3.dist-info/licenses/LICENSE",
+          "sha256": "ed9abc49f1fa3e3ce962d8ac42e176125c0ab0051ec5783dfcc807dd2a4c1f0f"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "1.85.3",
+        "official_source": "https://github.com/grpc/grpc/blob/master/LICENSE",
+        "reason": "Bundled LICENSE contains Apache, BSD and MPL components; native component attribution not fully mapped.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "grpcio",
+        "installed_version": "1.85.3",
+        "license_metadata": "Apache-2.0",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/grpcio/1.85.3/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [
+          {
+            "path": ".venv/Lib/site-packages/grpcio-1.85.3.dist-info/licenses/LICENSE",
+            "sha256": "ed9abc49f1fa3e3ce962d8ac42e176125c0ab0051ec5783dfcc807dd2a4c1f0f",
+            "bytes": 30814
+          }
+        ],
+        "remaining_action": "Apache-2.0 顶层；随包综合声明含 MIT/BSD/Mozilla 等。需逐项核对 Windows 原生组件与 NOTICE 对应关系。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "h11",
+      "version": "0.16.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "h11-0.16.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "hf-xet",
+      "version": "1.8.0",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "hf_xet-1.8.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "httpcore-1.0.9.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httpcore2",
+      "version": "2.16.2",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "httpcore2-2.16.2.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httptools",
+      "version": "0.9.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "httptools-0.9.0.dist-info/licenses/LICENSE",
+        "httptools-0.9.0.dist-info/licenses/vendor/http-parser/LICENSE-MIT",
+        "httptools-0.9.0.dist-info/licenses/vendor/llhttp/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httpx",
+      "version": "0.28.1",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "httpx-0.28.1.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httpx2",
+      "version": "2.16.2",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "httpx2-2.16.2.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "httpx-sse",
+      "version": "0.4.3",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "httpx_sse-0.4.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "huggingface_hub",
+      "version": "2.4.0",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "huggingface_hub-2.4.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "idna",
+      "version": "3.20",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "idna-3.20.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "importlib_resources",
+      "version": "7.1.0",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "importlib_resources-7.1.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "jsonpatch",
+      "version": "1.48",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "jsonpatch-1.48.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "jsonpointer",
+      "version": "3.12",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "jsonpointer-3.12.dist-info/licenses/AUTHORS",
+        "jsonpointer-3.12.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "jsonschema-4.26.0.dist-info/licenses/COPYING"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "kubernetes",
+      "version": "36.0.0",
+      "license_expression": null,
+      "license_metadata": "Apache License Version 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "kubernetes-36.0.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-chroma",
+      "version": "1.2.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_chroma-1.2.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-classic",
+      "version": "1.0.7",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_classic-1.0.7.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-community",
+      "version": "0.4.2",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-core",
+      "version": "1.6.3",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_core-1.6.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-ollama",
+      "version": "1.1.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_ollama-1.1.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-protocol",
+      "version": "0.0.22",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_protocol-0.0.22.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langchain-text-splitters",
+      "version": "1.2.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "langchain_text_splitters-1.2.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langgraph",
+      "version": "1.2.11",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "langgraph-1.2.11.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langgraph-checkpoint",
+      "version": "4.3.2",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "langgraph_checkpoint-4.3.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langgraph-checkpoint-sqlite",
+      "version": "3.1.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "langgraph_checkpoint_sqlite-3.1.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langgraph-prebuilt",
+      "version": "1.1.3",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "langgraph_prebuilt-1.1.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langgraph-sdk",
+      "version": "0.4.14",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "langgraph_sdk-0.4.14.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "langsmith",
+      "version": "0.12.4",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "lxml",
+      "version": "6.1.3",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "lxml-6.1.3.dist-info/licenses/LICENSE.txt",
+        "lxml-6.1.3.dist-info/licenses/LICENSES.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "markdown-it-py",
+      "version": "4.3.0",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "markdown_it_py-4.3.0.dist-info/licenses/LICENSE",
+        "markdown_it_py-4.3.0.dist-info/licenses/LICENSE.markdown-it"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "MIT classifier only; confirm actual license text and notices."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "mdurl-0.1.2.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "MIT classifier only; confirm actual license text and notices."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "mmh3",
+      "version": "5.3.1",
+      "license_expression": null,
+      "license_metadata": "MIT License\n\nCopyright (c) 2011-2026 Hajime Senuma\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "mmh3-5.3.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MIT confirmed from full bundled text.",
+      "official_source": "https://github.com/hajimes/mmh3/blob/master/LICENSE",
+      "version_source": "https://pypi.org/project/mmh3/5.3.1/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "mmh3-5.3.1.dist-info/licenses/LICENSE",
+          "sha256": "3bb6a905a54b7e1fbcaf21f60c35cbec5d19355e0ad428666e8e24017c2e52cd"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "multidict",
+      "version": "7.2.1",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "multidict-7.2.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "numpy",
+      "version": "2.4.6",
+      "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "BSD plus bundled native components, multiple licenses; binary redistribution requires full notice review.",
+      "official_source": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+      "version_source": "https://pypi.org/project/numpy/2.4.6/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+        },
+        {
+          "package_relative_path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+        },
+        {
+          "package_relative_path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "package_relative_path": "numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "package_relative_path": "numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "2.4.6",
+        "official_source": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+        "reason": "BSD plus bundled native components, multiple licenses; binary redistribution requires full notice review.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "numpy",
+        "installed_version": "2.4.6",
+        "license_metadata": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/numpy/2.4.6/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+            "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+            "bytes": 45831
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+            "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+            "bytes": 1039
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+            "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+            "bytes": 704
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+            "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+            "bytes": 21155
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+            "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+            "bytes": 1542
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+            "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+            "bytes": 1573
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+            "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+            "bytes": 1523
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+            "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+            "bytes": 2314
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+            "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+            "bytes": 1616
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+            "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+            "bytes": 3582
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+            "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+            "bytes": 2805
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+            "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+            "bytes": 2986
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+            "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+            "bytes": 1176
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+            "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+            "bytes": 1540
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+            "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+            "bytes": 1253
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+            "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+            "bytes": 340
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy/_core/include/numpy/random/LICENSE.txt",
+            "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+            "bytes": 1039
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy/ma/LICENSE",
+            "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+            "bytes": 1616
+          },
+          {
+            "path": ".venv/Lib/site-packages/numpy/random/LICENSE.md",
+            "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+            "bytes": 3582
+          }
+        ],
+        "remaining_action": "复合 SPDX 包含 BSD-3-Clause、0BSD、MIT、Zlib、CC0-1.0；LICENSE 含 Libgfortran GPL 及 GCC Runtime Library Exception 3.1。不得仅因 GPL 字样认定项目须改为 GPL；需核对实际链接组件、例外适用和通知。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "oauthlib",
+      "version": "4.0.1",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "oauthlib-4.0.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "ollama",
+      "version": "0.6.3",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "ollama-0.6.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "onnxruntime",
+      "version": "1.32.0",
+      "license_expression": null,
+      "license_metadata": "MIT License",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "onnxruntime/LICENSE",
+        "onnxruntime/ThirdPartyNotices.txt"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "Bundled MIT LICENSE and ThirdPartyNotices present; upstream guessed license URLs failed; native notices need manual mapping.",
+      "official_source": "https://onnxruntime.ai",
+      "version_source": "https://pypi.org/project/onnxruntime/1.32.0/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "onnxruntime/LICENSE",
+          "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+        },
+        {
+          "package_relative_path": "onnxruntime/ThirdPartyNotices.txt",
+          "sha256": "bf8073fd6a112ac2a656bb60799652127e881689e51d37ad20df446cd5188b2d"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "1.32.0",
+        "official_source": "https://onnxruntime.ai",
+        "reason": "Bundled MIT LICENSE and ThirdPartyNotices present; upstream guessed license URLs failed; native notices need manual mapping.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "onnxruntime",
+        "installed_version": "1.32.0",
+        "license_metadata": "MIT License",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/onnxruntime/1.32.0/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [
+          {
+            "path": ".venv/Lib/site-packages/onnxruntime/LICENSE",
+            "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+            "bytes": 1094
+          },
+          {
+            "path": ".venv/Lib/site-packages/onnxruntime/ThirdPartyNotices.txt",
+            "sha256": "bf8073fd6a112ac2a656bb60799652127e881689e51d37ad20df446cd5188b2d",
+            "bytes": 341120
+          }
+        ],
+        "remaining_action": "主 LICENSE 为 MIT，另有大型 ThirdPartyNotices.txt；需核对当前 wheel 原生库实际包含的第三方组件及义务。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-api",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_api-1.45.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-exporter-otlp-common",
+      "version": "0.66b2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_exporter_otlp_common-0.66b2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_exporter_otlp_proto_common-1.45.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-exporter-otlp-proto-grpc",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_exporter_otlp_proto_grpc-1.45.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-proto",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_proto-1.45.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-sdk",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_sdk-1.45.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "opentelemetry-semantic-conventions",
+      "version": "0.66b2",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "opentelemetry_semantic_conventions-0.66b2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "orjson",
+      "version": "3.13.0",
+      "license_expression": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "bundled_notice_files": [
+        "orjson-3.13.0.dist-info/licenses/LICENSE-APACHE",
+        "orjson-3.13.0.dist-info/licenses/LICENSE-MIT",
+        "orjson-3.13.0.dist-info/licenses/LICENSE-MPL-2.0"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "MPL-2.0 AND (Apache-2.0 OR MIT); mapping covered components requires manual confirmation.",
+      "official_source": "https://github.com/ijl/orjson",
+      "version_source": "https://pypi.org/project/orjson/3.13.0/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "orjson-3.13.0.dist-info/licenses/LICENSE-APACHE",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c"
+        },
+        {
+          "package_relative_path": "orjson-3.13.0.dist-info/licenses/LICENSE-MIT",
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9"
+        },
+        {
+          "package_relative_path": "orjson-3.13.0.dist-info/licenses/LICENSE-MPL-2.0",
+          "sha256": "9303ea1cfbf049945652668089d753fb1a7e1f2e52c680615c3d2cea7515c118"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "3.13.0",
+        "official_source": "https://github.com/ijl/orjson",
+        "reason": "MPL-2.0 AND (Apache-2.0 OR MIT); mapping covered components requires manual confirmation.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "orjson",
+        "installed_version": "3.13.0",
+        "license_metadata": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/orjson/3.13.0/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [
+          {
+            "path": ".venv/Lib/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-APACHE",
+            "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
+            "bytes": 11048
+          },
+          {
+            "path": ".venv/Lib/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-MIT",
+            "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9",
+            "bytes": 1046
+          },
+          {
+            "path": ".venv/Lib/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-MPL-2.0",
+            "sha256": "9303ea1cfbf049945652668089d753fb1a7e1f2e52c680615c3d2cea7515c118",
+            "bytes": 17100
+          }
+        ],
+        "remaining_action": "MPL-2.0 AND (Apache-2.0 OR MIT)，三份许可随包存在；不能忽略 AND 的 MPL 部分，二进制再分发需核对对应源码与告知。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "ormsgpack",
+      "version": "1.13.1",
+      "license_expression": "Apache-2.0 OR MIT",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "ormsgpack-1.13.1.dist-info/licenses/LICENSE-APACHE",
+        "ormsgpack-1.13.1.dist-info/licenses/LICENSE-MIT"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 OR MIT; preserve chosen applicable notices, no upstream modification.",
+      "official_source": "https://github.com/ormsgpack/ormsgpack/blob/master/LICENSE-MIT",
+      "version_source": "https://pypi.org/project/ormsgpack/1.13.1/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "ormsgpack-1.13.1.dist-info/licenses/LICENSE-APACHE",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c"
+        },
+        {
+          "package_relative_path": "ormsgpack-1.13.1.dist-info/licenses/LICENSE-MIT",
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "overrides",
+      "version": "7.7.0",
+      "license_expression": null,
+      "license_metadata": "Apache License, Version 2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "overrides-7.7.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "packaging",
+      "version": "26.4",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "packaging-26.4.dist-info/licenses/LICENSE",
+        "packaging-26.4.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.4.dist-info/licenses/LICENSE.BSD",
+        "packaging/licenses/__init__.py",
+        "packaging/licenses/__pycache__/__init__.cpython-311.pyc",
+        "packaging/licenses/__pycache__/_spdx.cpython-311.pyc",
+        "packaging/licenses/_spdx.py"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 OR BSD-2-Clause.",
+      "official_source": "https://github.com/pypa/packaging/blob/main/LICENSE",
+      "version_source": "https://pypi.org/project/packaging/26.4/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "packaging-26.4.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "package_relative_path": "packaging-26.4.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "package_relative_path": "packaging-26.4.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pillow",
+      "version": "13.0.0",
+      "license_expression": "MIT-CMU",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pillow-13.0.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "MIT-CMU plus bundled third-party notices; native image libraries need manual review.",
+      "official_source": "https://github.com/python-pillow/Pillow/blob/main/LICENSE",
+      "version_source": "https://pypi.org/project/pillow/13.0.0/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "13.0.0",
+        "official_source": "https://github.com/python-pillow/Pillow/blob/main/LICENSE",
+        "reason": "MIT-CMU plus bundled third-party notices; native image libraries need manual review.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "pillow",
+        "installed_version": "13.0.0",
+        "license_metadata": "MIT-CMU",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/pillow/13.0.0/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [
+          {
+            "path": ".venv/Lib/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE",
+            "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236",
+            "bytes": 78481
+          }
+        ],
+        "remaining_action": "顶层 MIT-CMU，综合声明包含 FreeType 的许可选择及 xz 多种许可证文本。出现 GPL/LGPL 文本不证明整个 wheel 或本项目采用 GPL；仍需文件级和实际构建映射。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pip",
+      "version": "23.1.2",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "pip-23.1.2.dist-info/LICENSE.txt"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MIT build/install tool; not an application runtime requirement.",
+      "official_source": "https://github.com/pypa/pip/blob/main/LICENSE.txt",
+      "version_source": "https://pypi.org/project/pip/23.1.2/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "pip-23.1.2.dist-info/LICENSE.txt",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "propcache",
+      "version": "0.5.4",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "propcache-0.5.4.dist-info/licenses/LICENSE",
+        "propcache-0.5.4.dist-info/licenses/NOTICE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "protobuf",
+      "version": "7.36.2",
+      "license_expression": null,
+      "license_metadata": "3-Clause BSD License",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "protobuf-7.36.2.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pybase64",
+      "version": "1.5.2",
+      "license_expression": "BSD-2-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pybase64-1.5.2.dist-info/licenses/LICENSE",
+        "pybase64-1.5.2.dist-info/licenses/base64/LICENSE",
+        "pybase64/__pycache__/_license.cpython-311.pyc",
+        "pybase64/_license.py",
+        "pybase64/_license.pyi"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pycparser",
+      "version": "3.12",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pycparser-3.12.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pydantic",
+      "version": "2.13.5",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pydantic-2.13.5.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pydantic_core",
+      "version": "2.46.5",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pydantic_core-2.46.5.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pydantic-settings",
+      "version": "2.16.3",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "pydantic_settings-2.16.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "license_expression": "BSD-2-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pygments-2.21.0.dist-info/licenses/AUTHORS",
+        "pygments-2.21.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pypdf",
+      "version": "7.1.1",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pypdf-7.1.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "PyPika",
+      "version": "0.51.1",
+      "license_expression": null,
+      "license_metadata": "Apache License Version 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "pypika-0.51.1.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pyproject_hooks",
+      "version": "1.3.3",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "pyproject_hooks-1.3.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "pytesseract",
+      "version": "0.3.13",
+      "license_expression": null,
+      "license_metadata": "Apache License 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "pytesseract-0.3.13.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "license_expression": null,
+      "license_metadata": "Dual License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "python_dateutil-2.9.0.post0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 and historical BSD contributions; preserve both sections.",
+      "official_source": "https://github.com/dateutil/dateutil/blob/master/LICENSE",
+      "version_source": "https://pypi.org/project/python-dateutil/2.9.0.post0/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "python_dateutil-2.9.0.post0.dist-info/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "python-docx",
+      "version": "1.2.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "python_docx-1.2.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "python-dotenv",
+      "version": "1.2.3",
+      "license_expression": null,
+      "license_metadata": "BSD-3-Clause",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "python_dotenv-1.2.3.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "python-multipart",
+      "version": "0.0.34",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "python_multipart-0.0.34.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "PyYAML",
+      "version": "6.0.4",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "pyyaml-6.0.4.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "referencing",
+      "version": "0.37.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "referencing-0.37.0.dist-info/licenses/COPYING"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "requests",
+      "version": "2.34.2",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "requests-2.34.2.dist-info/licenses/LICENSE",
+        "requests-2.34.2.dist-info/licenses/NOTICE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "requests-oauthlib",
+      "version": "2.0.0",
+      "license_expression": null,
+      "license_metadata": "ISC",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "bundled_notice_files": [
+        "requests_oauthlib-2.0.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "license_expression": null,
+      "license_metadata": "Apache 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "requests_toolbelt-1.0.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "rich",
+      "version": "15.0.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "rich-15.0.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "rpds_py-2026.9.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "setuptools",
+      "version": "65.5.0",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "setuptools-65.5.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MIT build tool; bundled vendor notices require review if redistributed.",
+      "official_source": "https://github.com/pypa/setuptools/blob/main/LICENSE",
+      "version_source": "https://pypi.org/project/setuptools/65.5.0/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "setuptools-65.5.0.dist-info/LICENSE",
+          "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "shellingham",
+      "version": "1.5.4",
+      "license_expression": null,
+      "license_metadata": "ISC License",
+      "license_classifiers": [
+        "License :: OSI Approved :: ISC License (ISCL)"
+      ],
+      "bundled_notice_files": [
+        "shellingham-1.5.4.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "six",
+      "version": "1.17.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "six-1.17.0.dist-info/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "sniffio",
+      "version": "1.3.1",
+      "license_expression": null,
+      "license_metadata": "MIT OR Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [
+        "sniffio-1.3.1.dist-info/LICENSE",
+        "sniffio-1.3.1.dist-info/LICENSE.APACHE2",
+        "sniffio-1.3.1.dist-info/LICENSE.MIT"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "Apache-2.0 OR MIT.",
+      "official_source": "https://github.com/python-trio/sniffio/blob/master/LICENSE",
+      "version_source": "https://pypi.org/project/sniffio/1.3.1/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "sniffio-1.3.1.dist-info/LICENSE",
+          "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b"
+        },
+        {
+          "package_relative_path": "sniffio-1.3.1.dist-info/LICENSE.APACHE2",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "package_relative_path": "sniffio-1.3.1.dist-info/LICENSE.MIT",
+          "sha256": "3e6dae555eb92787fc82d1d48355677f454c7f65aeb38d3f9e72bf9a3daf034b"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "SQLAlchemy",
+      "version": "2.1.9",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "sqlalchemy-2.1.9.dist-info/licenses/AUTHORS",
+        "sqlalchemy-2.1.9.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "sqlite-vec",
+      "version": "0.1.9",
+      "license_expression": null,
+      "license_metadata": "MIT License, Apache License, Version 2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "Official MIT option found, installed wheel has no license file; exact wheel notice scope pending.",
+      "official_source": "https://github.com/asg017/sqlite-vec/blob/main/LICENSE-MIT",
+      "version_source": "https://pypi.org/project/sqlite-vec/0.1.9/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "0.1.9",
+        "official_source": "https://github.com/asg017/sqlite-vec/blob/main/LICENSE-MIT",
+        "reason": "Official MIT option found, installed wheel has no license file; exact wheel notice scope pending.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "sqlite-vec",
+        "installed_version": "0.1.9",
+        "license_metadata": "MIT License, Apache License, Version 2.0",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/sqlite-vec/0.1.9/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [],
+        "remaining_action": "安装记录未发现 LICENSE/NOTICE。元数据列 MIT/Apache，不能据此确定当前原生扩展的完整义务；需精确发行归档和构建清单。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "starlette",
+      "version": "1.10.0",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "starlette-1.10.0.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "tenacity",
+      "version": "9.2.1",
+      "license_expression": "Apache-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "tenacity-9.2.1.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "license_expression": null,
+      "license_metadata": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "bundled_notice_files": [],
+      "mit_review_status": "unknown",
+      "mit_review_reason": "Missing precise expression or ambiguous classifier; manual confirmation required.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "Official Apache-2.0; installed wheel lacks license file, manual release artifact/notice confirmation.",
+      "official_source": "https://github.com/huggingface/tokenizers/blob/main/LICENSE",
+      "version_source": "https://pypi.org/project/tokenizers/0.23.3/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "0.23.3",
+        "official_source": "https://github.com/huggingface/tokenizers/blob/main/LICENSE",
+        "reason": "Official Apache-2.0; installed wheel lacks license file, manual release artifact/notice confirmation.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "tokenizers",
+        "installed_version": "0.23.3",
+        "license_metadata": null,
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://pypi.org/project/tokenizers/0.23.3/",
+        "official_page_result": "version-specific publisher page opened; not a wheel-content certification",
+        "installed_notice_evidence": [],
+        "remaining_action": "安装记录未发现 LICENSE/NOTICE；上游 Apache-2.0 不能替代当前版本 wheel 的 Rust 组件与版权映射。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "Python",
+      "name": "tqdm",
+      "version": "4.70.1",
+      "license_expression": null,
+      "license_metadata": "MPL-2.0 AND MIT",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "tqdm-4.70.1.dist-info/licenses/LICENCE"
+      ],
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MPL-2.0 AND MIT with per-file/contributor exceptions; preserve license scope.",
+      "official_source": "https://github.com/tqdm/tqdm/blob/master/LICENCE",
+      "version_source": "https://pypi.org/project/tqdm/4.70.1/",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "tqdm-4.70.1.dist-info/licenses/LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "name": "truststore",
+      "version": "0.10.5",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "truststore-0.10.5.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "typer",
+      "version": "0.29.2",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "typer-0.29.2.dist-info/licenses/LICENSE",
+        "typer/_click/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "typing-inspection",
+      "version": "0.4.5",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "typing_inspection-0.4.5.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "urllib3",
+      "version": "2.8.0",
+      "license_expression": "MIT",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "uuid_utils",
+      "version": "0.19.0",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "uuid_utils-0.19.0.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "uvicorn",
+      "version": "0.52.4",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "uvicorn-0.52.4.dist-info/licenses/LICENSE.md"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "watchfiles",
+      "version": "1.3.0",
+      "license_expression": null,
+      "license_metadata": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "bundled_notice_files": [
+        "watchfiles-1.3.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "websockets",
+      "version": "17.4",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "websockets-17.4.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "websocket-client",
+      "version": "1.9.2",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "websocket_client-1.9.2.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "xxhash",
+      "version": "4.1.0",
+      "license_expression": null,
+      "license_metadata": "BSD-2-Clause",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "xxhash-4.1.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "yarl",
+      "version": "1.25.1",
+      "license_expression": null,
+      "license_metadata": "Apache-2.0",
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "yarl-1.25.1.dist-info/licenses/LICENSE",
+        "yarl-1.25.1.dist-info/licenses/NOTICE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "Python",
+      "name": "zstandard",
+      "version": "0.25.0",
+      "license_expression": "BSD-3-Clause",
+      "license_metadata": null,
+      "license_classifiers": [],
+      "bundled_notice_files": [
+        "zstandard-0.25.0.dist-info/licenses/LICENSE"
+      ],
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@oxc-project/types",
+      "version": "0.149.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@oxlint/binding-win32-x64-msvc",
+      "version": "1.82.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.8",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vitejs/plugin-react",
+      "version": "6.1.1",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "csstype",
+      "version": "3.2.3",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license_metadata": "Apache-2.0",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fdir",
+      "version": "6.5.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license_metadata": "MPL-2.0",
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "confirmed_compatible_with_conditions",
+      "followup_note": "MPL-2.0; file-level obligations retained, not MIT.",
+      "official_source": "https://github.com/parcel-bundler/lightningcss/blob/master/LICENSE",
+      "version_source": "https://www.npmjs.com/package/lightningcss/v/1.33.0",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "LICENSE",
+          "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license_metadata": "MPL-2.0",
+      "mit_review_status": "manual_review",
+      "mit_review_reason": "Review multi-license selection, file-level obligations, bundled/native notices, or build-tool scope; not automatically incompatible with MIT.",
+      "followup_status": "manual_confirmation_required",
+      "followup_note": "Native MPL-2.0 binding; bundled Rust components/notices not exhaustively reviewed.",
+      "official_source": "https://github.com/parcel-bundler/lightningcss/blob/master/LICENSE",
+      "version_source": "https://www.npmjs.com/package/lightningcss-win32-x64-msvc/v/1.33.0",
+      "version_verification": "Installed artifact metadata; upstream main/master source is not asserted to equal this exact version tag.",
+      "followup_evidence": [
+        {
+          "package_relative_path": "LICENSE",
+          "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+        }
+      ],
+      "source_only_recheck": {
+        "status": "pending_review",
+        "scope": "Source-only distribution; no dependency binaries or weights included",
+        "version": "1.33.0",
+        "official_source": "https://github.com/parcel-bundler/lightningcss/blob/master/LICENSE",
+        "reason": "Native MPL-2.0 binding; bundled Rust components/notices not exhaustively reviewed.",
+        "upstream_version_tag_verified": false
+      },
+      "final_compliance_review": {
+        "name": "lightningcss-win32-x64-msvc",
+        "installed_version": "1.33.0",
+        "license_metadata": "MPL-2.0",
+        "review_date": "2026-11-25",
+        "status": "pending_review",
+        "scope": "source references only; installed native dependency binaries excluded from release manifest",
+        "official_version_page": "https://www.npmjs.com/package/lightningcss-win32-x64-msvc/v/1.33.0",
+        "official_page_result": "403; local package evidence only",
+        "installed_notice_evidence": [
+          {
+            "path": "frontend/node_modules/lightningcss-win32-x64-msvc/LICENSE",
+            "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+            "bytes": 15648
+          }
+        ],
+        "remaining_action": "包元数据 MPL-2.0，LICENSE 和 .node 原生扩展同时存在；需核对源代码获得方式、MPL 告知和原生依赖。npm 官方版本页面本轮返回403，未用主分支替代验证。",
+        "artifact_provenance_limit": "Installed file hashes recorded; original downloaded wheel integrity/build provenance not independently reconstructed."
+      }
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nanoid",
+      "version": "3.3.18",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "oxlint",
+      "version": "1.82.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license_metadata": "ISC",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss",
+      "version": "8.5.28",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rolldown",
+      "version": "1.2.8",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "license_metadata": "BSD-3-Clause",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vite",
+      "version": "8.2.2",
+      "license_metadata": "MIT",
+      "mit_review_status": "preliminary_permissive",
+      "mit_review_reason": "Known permissive metadata; retain upstream notices and check bundled components before redistribution."
+    }
+  ],
+  "followup_summary": {
+    "scope": "21 previously flagged dependencies; 129 other entries remain preliminary only",
+    "confirmed_compatible_with_conditions": 13,
+    "manual_confirmation_required": 8,
+    "confirmed_incompatible": 0,
+    "date": "2026-11-24"
+  },
+  "release_scope": "Source code only; no model weights, third-party binaries, installed environments or runtime databases",
+  "pending_dependency_count": 8,
+  "project_license_scope": "MIT for project-owned code only; third-party terms retained",
+  "historical_initial_review_summary": {
+    "counts": {
+      "preliminary_permissive": 129,
+      "manual_review": 18,
+      "unknown": 3
+    },
+    "confirmed_incompatible": 0,
+    "caveat": "No confirmed incompatibility found is not all-dependencies approval; original metadata and third-party notices unchanged."
+  },
+  "review_summary": {
+    "previously_flagged_reviewed": 21,
+    "conditional_source_integration": 13,
+    "pending_review": 8,
+    "other_preliminary_only": 129,
+    "blanket_compatibility_approved": false
+  },
+  "final_review_date": "2026-11-25",
+  "final_review_scope": "8 exact installed versions; no blanket license compatibility certification; 150-entry inventory otherwise retains earlier preliminary status",
+  "final_official_release_materials": [
+    {
+      "name": "sqlite-vec",
+      "version": "0.1.9",
+      "official_sdist": [],
+      "status": "release metadata confirmed; archive contents not inspected; pending"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "official_sdist": [
+        {
+          "filename": "tokenizers-0.23.3.tar.gz",
+          "sha256": "cded33237c77caeef62944d32aa9a7ef42bdce2b3497e18d137e072a8c4be438",
+          "url": "https://files.pythonhosted.org/packages/e0/7c/2cabb2174e772636683008f2c5621949b645da7d303c596589e84516a184/tokenizers-0.23.3.tar.gz"
+        }
+      ],
+      "status": "release metadata confirmed; archive contents not inspected; pending"
+    }
+  ],
+  "candidate_artifact_review_20261125": [
+    {
+      "name": "grpcio",
+      "version": "1.85.3",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/grpcio/1.85.3/json",
+      "official_project_urls": {
+        "Bug Tracker": "https://github.com/grpc/grpc/issues",
+        "Documentation": "https://grpc.github.io/grpc/python",
+        "Homepage": "https://grpc.io",
+        "Source Code": "https://github.com/grpc/grpc"
+      },
+      "artifact": "grpcio-1.85.3-cp311-cp311-win_amd64.whl",
+      "sha256": "fd039b47f6ac0bd6744250725fd5753d5c27151bcedc2e800983641f7304ba60",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "grpcio-1.85.3.dist-info/licenses/LICENSE",
+          "sha256": "ed9abc49f1fa3e3ce962d8ac42e176125c0ab0051ec5783dfcc807dd2a4c1f0f"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/numpy/2.4.6/json",
+      "official_project_urls": {
+        "documentation": "https://numpy.org/doc/",
+        "download": "https://pypi.org/project/numpy/#files",
+        "homepage": "https://numpy.org",
+        "release notes": "https://numpy.org/doc/stable/release",
+        "source": "https://github.com/numpy/numpy",
+        "tracker": "https://github.com/numpy/numpy/issues"
+      },
+      "artifact": "numpy-2.4.6-cp311-cp311-win_amd64.whl",
+      "sha256": "1e254a00cdf42b1e4d5b3d68d33af63268d41340d8885df2ab6470f2e1500147",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+        },
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "onnxruntime",
+      "version": "1.32.0",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/onnxruntime/1.32.0/json",
+      "official_project_urls": {
+        "Download": "https://github.com/microsoft/onnxruntime/tags",
+        "Homepage": "https://onnxruntime.ai"
+      },
+      "artifact": "onnxruntime-1.32.0-cp311-cp311-win_amd64.whl",
+      "sha256": "d7e0c45cc5f456ad7805e6dd256a7662736cda9c2fd17becae194eb3c2f6df72",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "onnxruntime/LICENSE",
+          "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+        },
+        {
+          "path": "onnxruntime/ThirdPartyNotices.txt",
+          "sha256": "bf8073fd6a112ac2a656bb60799652127e881689e51d37ad20df446cd5188b2d"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "orjson",
+      "version": "3.13.0",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/orjson/3.13.0/json",
+      "official_project_urls": {
+        "changelog": "https://github.com/ijl/orjson/blob/master/CHANGELOG.md",
+        "documentation": "https://github.com/ijl/orjson",
+        "source": "https://github.com/ijl/orjson"
+      },
+      "artifact": "orjson-3.13.0-cp311-cp311-win_amd64.whl",
+      "sha256": "a0377d6962fa431c93ecd78fdea771bb62ec545b24ee0c5d4e32acf2260af259",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "orjson-3.13.0.dist-info/licenses/LICENSE-APACHE",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c"
+        },
+        {
+          "path": "orjson-3.13.0.dist-info/licenses/LICENSE-MIT",
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9"
+        },
+        {
+          "path": "orjson-3.13.0.dist-info/licenses/LICENSE-MPL-2.0",
+          "sha256": "9303ea1cfbf049945652668089d753fb1a7e1f2e52c680615c3d2cea7515c118"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/pillow/13.0.0/json",
+      "official_project_urls": {
+        "Changelog": "https://github.com/python-pillow/Pillow/releases",
+        "Documentation": "https://pillow.readthedocs.io",
+        "Funding": "https://tidelift.com/lifter/search/pypi/pillow",
+        "Homepage": "https://python-pillow.org",
+        "Mastodon": "https://fosstodon.org/@pillow",
+        "Release notes": "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Security": "https://pillow.readthedocs.io/en/stable/handbook/security.html",
+        "Source": "https://github.com/python-pillow/Pillow"
+      },
+      "artifact": "pillow-13.0.0-cp311-cp311-win_amd64.whl",
+      "sha256": "d7710eb676e9bb68965cb045be0d333b4c0d7f9dfbaa7fbf121385b1588683d3",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "sqlite-vec",
+      "version": "0.1.9",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/sqlite-vec/0.1.9/json",
+      "official_project_urls": {
+        "Homepage": "https://TODO.com"
+      },
+      "artifact": "sqlite_vec-0.1.9-py3-none-macosx_10_6_x86_64.whl",
+      "sha256": "1b62a7f0a060d9475575d4e599bbf94a13d85af896bc1ce86ee80d1b5b48e5fb",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "status": "pending_review",
+      "official_metadata_url": "https://pypi.org/pypi/tokenizers/0.23.3/json",
+      "official_project_urls": {
+        "Homepage": "https://github.com/huggingface/tokenizers",
+        "Source": "https://github.com/huggingface/tokenizers"
+      },
+      "artifact": "tokenizers-0.23.3.tar.gz",
+      "sha256": "cded33237c77caeef62944d32aa9a7ef42bdce2b3497e18d137e072a8c4be438",
+      "publisher_sha256_verified": true,
+      "artifact_notice_files": [
+        {
+          "path": "tokenizers-0.23.3/tokenizers/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "status": "pending_review",
+      "official_metadata_url": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/1.33.0",
+      "upstream_git_head": "1d680fa14e9a089c92dc0929f869d6757ae91c30",
+      "artifact": "lightningcss-win32-x64-msvc-1.33.0.tgz",
+      "sha256": "feb506faf3bdf4139826f521777c71b53c355f8eb6bcdd3220e16c5e131f1197",
+      "artifact_notice_files": [
+        {
+          "path": "package/LICENSE",
+          "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+        }
+      ],
+      "remaining": "Exact artifact notice presence verified; native transitive component/source-offer mapping still requires review. No blanket approval."
+    }
+  ]
+}

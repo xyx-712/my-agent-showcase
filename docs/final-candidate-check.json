@@ -1,0 +1,11 @@
+{
+  "candidate": "my-agent-final-source-20261125-r1",
+  "forbidden_manifest_entries_excluded": [],
+  "common_secret_matches": [],
+  "machine_path_matches": [],
+  "core_files_byte_identical": 138,
+  "readme_guide_broken_links": [],
+  "git_present": false,
+  "scan_scope": "explicit candidate only; no claim of exhaustive secret detection",
+  "runtime_services_started_this_round": "worker harness only; stopped by harness"
+}

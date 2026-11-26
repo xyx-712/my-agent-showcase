@@ -1,0 +1,36 @@
+{
+  "scope": "conditional source display only",
+  "date": "2026-11-25",
+  "original_git_history_included": false,
+  "runtime_data_included": false,
+  "license_review": "8 dependencies pending author sign-off",
+  "tests_this_round": [
+    "pip check",
+    "frontend lint/build",
+    "actual file_reader through LangGraph",
+    "request stability fault injection",
+    "Windows shared-port 2 workers with substitute model"
+  ],
+  "historical_verified": [
+    "161/161 unit tests",
+    "18/18 real API coverage",
+    "8/8 real browser RAG"
+  ],
+  "unverified": [
+    "Docker build/run",
+    "real OCR",
+    "real SMTP",
+    "multiworker real model/RAG concurrency",
+    "production public deployment"
+  ],
+  "documentation_redacted": [
+    "docs\\git-history-security-review.json",
+    "docs\\rag-answer-quality-results.json",
+    "docs\\rag-browser-special-acceptance-20261125.md",
+    "docs\\rag-coverage-preliminary-full-document-results.json",
+    "docs\\rag-coverage-real-results.json",
+    "docs\\rag-coverage-structured-first-results.json",
+    "docs\\rag-final-coverage-repair-report.md",
+    "docs\\rag-hybrid-real-results.json"
+  ]
+}

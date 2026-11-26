@@ -1,0 +1,60 @@
+# python
+__pycache__/
+*.pyc
+
+# env
+.env
+.env.*
+!.env.example
+
+# virtual env
+.venv/
+
+# database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# runtime
+chat_history.json
+.demo-runtime/
+/docs/interview.md
+/docs/demo-script.md
+/docs/architecture.md
+/data/
+*.db-journal
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# logs
+*.log
+
+# Derived local vector stores
+*_chroma/
+
+# Source-publication exclusions (retain local data; never commit it)
+.e2e-runs/
+.rag-validation-runs/
+.final-acceptance-runs/
+release-candidates/
+venv/
+node_modules/
+.pytest_cache/
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.gguf
+*.safetensors
+*.onnx
+*.whl
+*.pyd
+*.dll
